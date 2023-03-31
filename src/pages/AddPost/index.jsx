@@ -80,6 +80,7 @@ export const AddPost = () => {
     }),
     []
   );
+  //
 
   if (!window.localStorage.getItem("token") && !isAuth) {
     return <Navigate to="/" />;
